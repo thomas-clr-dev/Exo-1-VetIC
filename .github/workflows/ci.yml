@@ -1,5 +1,5 @@
 
-name: CI
+name: CI JS Tests
 
 on:
     push:
