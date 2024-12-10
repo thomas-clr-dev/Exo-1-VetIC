@@ -1,4 +1,4 @@
-import { sum, multiplication, division, modulo, substract, isEven, isOdd, root, power } from "../calculator.js";
+import { sum, multiplication, division, modulo, substract, isEven, isOdd, root, power, factorial } from "../calculator.js";
 import { describe, it } from "node:test";
 
 describe("Correct sum", () => {
@@ -69,6 +69,14 @@ describe("Correct power", () => {
     it("finds the power of 2^3", () => {
         if (power(2, 3) !== 8) {
             throw new Error("2^3 is 8");
+        }
+    });
+});
+
+describe ("Correct factorial", () => {
+    it("finds the factorial of 5", () => {
+        if (factorial(5) !== 120) {
+            throw new Error("The factorial of 5 is 120");
         }
     });
 });
