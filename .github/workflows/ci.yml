@@ -18,6 +18,7 @@ jobs:
 
         - name: Install dependencies
           run: | 
-            npm update
             npm install
+            npm install --save-dev husky
+            npm husky init
             npm test
