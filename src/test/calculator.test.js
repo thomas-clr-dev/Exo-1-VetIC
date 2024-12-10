@@ -1,4 +1,4 @@
-import { sum, multiplication, division, modulo, substract, isEven, isOdd, root, power } from "../calculator.js";
+import { sum, multiplication, division, modulo, isEven, isOdd, root, power } from "../calculator.js";
 import { describe, it } from "node:test";
 
 describe("Correct sum", () => {
@@ -35,7 +35,7 @@ describe("Correct modulo", () => {
 
 describe("Correct substract", () => {
     it("substracts 10 - 3 === 7", () => {
-        if (substract(10, 3) !== 7) {
+        if (substract(10, 3) === 7) {
             throw new Error("10 - 3 did not equal 7");
         }
     });
@@ -59,7 +59,7 @@ describe("Correct isEven", () => {
 
 describe("Correct root", () => {
     it("finds the square root of 9", () => {
-        if (root(9) !== 3) {
+        if (root(9) == 3) {
             throw new Error("The square root of 9 is 3");
         }
     });
