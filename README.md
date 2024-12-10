@@ -12,3 +12,18 @@ Merge de la branch developp sur la branche main.
 
 Ajout d'une pull-request pour essayer de voir comment faire depuis github.
 
+Ajout des dépendances Node pour faire du js
+
+Ajout de fonction et de test pour faire une mini calculette
+
+Ajout de husky pour mettre des règles en plus (pre-commit, pre-push)
+
+Modification et résolution du CI.yml
+
+Ajout de Conventional Commits
+
+Détection de certains bug dans les test
+
+Résolution des bugs précédement détecter
+
+Mise à jour du README
