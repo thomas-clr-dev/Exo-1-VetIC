@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "test": "node ./src/test/calculator.test.js"
+    "test": "node ./src/test/calculator.test.js",
+    "prepare": "husky"
   },
   "name": "versionnage",
   "version": "1.0.0",
@@ -10,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "is-even": "^1.0.0"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
   }
 }
