@@ -1,4 +1,4 @@
-import { sum, multiplication, division, modulo, substract, isEven, isOdd } from "../calculator.js";
+import { sum, multiplication, division, modulo, substract, isEven, isOdd, root, power } from "../calculator.js";
 import { describe, it } from "node:test";
 
 describe("Correct sum", () => {
