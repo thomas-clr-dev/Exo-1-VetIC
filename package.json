@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "node ./src/test/calculator.test.js"
+  },
+  "name": "versionnage",
+  "version": "1.0.0",
+  "description": "- commit 1 - commit 2",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "is-even": "^1.0.0"
+  }
+}
