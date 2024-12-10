@@ -1,4 +1,4 @@
-import { sum, multiplication, division, modulo, substract, isEven, isOdd, root, power, factorial } from "../calculator.js";
+import { sum, multiplication, division, modulo, substract, isEven, isOdd, root, power, factorial, fibonacci } from "../calculator.js";
 import { describe, it } from "node:test";
 
 describe("Correct sum", () => {
@@ -77,6 +77,14 @@ describe ("Correct factorial", () => {
     it("finds the factorial of 5", () => {
         if (factorial(5) !== 120) {
             throw new Error("The factorial of 5 is 120");
+        }
+    });
+});
+
+describe ("Correct fibonacci", () => {
+    it("finds the fibonacci of 5", () => {
+        if (fibonacci(5) !== 5) {
+            throw new Error("The fibonacci of 5 is 5");
         }
     });
 });
