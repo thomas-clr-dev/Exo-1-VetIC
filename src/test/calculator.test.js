@@ -1,4 +1,4 @@
-import { sum, multiplication, division, modulo, substract, isEven, isOdd, root, power, factorial, fibonacci } from "../calculator.js";
+import { sum, multiplication, division, modulo, substract, isEven, isOdd, root, power, factorial, fibonacci, integral } from "../calculator.js";
 import { describe, it } from "node:test";
 
 describe("Correct sum", () => {
@@ -85,6 +85,14 @@ describe ("Correct fibonacci", () => {
     it("finds the fibonacci of 5", () => {
         if (fibonacci(5) !== 5) {
             throw new Error("The fibonacci of 5 is 5");
+        }
+    });
+});
+
+describe ("Correct integral", () => {
+    it("finds the integral of x^2 from 0 to 1 with 1000 rectangles", () => {
+        if (integral(0, 1, x => x ** 2, 1000) !== 0.3333335) {
+            throw new Error("The integral of x^2 from 0 to 1 with 1000 rectangles is 0.3333335");
         }
     });
 });
