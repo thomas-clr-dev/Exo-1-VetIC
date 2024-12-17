@@ -4,8 +4,8 @@ echo "Starting deployment process..."
 
 @REM # Install all dependencies
 
-echo "Installing dependencies..."
-npm install
+@REM echo "Installing dependencies..."
+@REM npm install
 
 @REM # Launch all the tests
 
@@ -20,6 +20,8 @@ npm install
 @REM # # Deploy the project
 
 echo "Deploying the project..."
+git add .
+git commit -m "Deployment"
 git push origin main
 
 echo "Deployment process completed."
