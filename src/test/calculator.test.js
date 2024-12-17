@@ -95,4 +95,4 @@ describe ("Correct integral", () => {
             throw new Error("The integral of x^2 from 0 to 1 with 1000 rectangles is 0.3333335");
         }
     });
-}
+});
