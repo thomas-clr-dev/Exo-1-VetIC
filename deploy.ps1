@@ -17,9 +17,9 @@ npm test
 # echo "Building the project..."
 # npm run build
 
-# Deploy the project
+# # Deploy the project
 
-# echo "Deploying the project..."
-# git push origin main
+echo "Deploying the project..."
+git push origin main
 
 echo "Deployment process completed."
