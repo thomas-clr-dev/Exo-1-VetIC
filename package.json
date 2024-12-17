@@ -13,6 +13,8 @@
     "is-even": "^1.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
     "husky": "^9.1.7"
   }
 }
