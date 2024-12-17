@@ -12,10 +12,10 @@ npm install
 echo "Running tests..."
 npm test
 
-# Build the project
+# # Build the project
 
-echo "Building the project..."
-npm run build
+# echo "Building the project..."
+# npm run build
 
 # Deploy the project
 
