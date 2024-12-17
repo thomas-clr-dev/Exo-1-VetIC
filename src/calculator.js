@@ -31,11 +31,11 @@ export const fibonacci = (a) => {
     return fibonacci(a - 1) + fibonacci(a - 2);
 };
 
-export const integral = (a, b, f, n) => {
-    let h = (b - a) / n;
-    let sum = 0;
-    for (let i = 0; i < n; i++) {
-        sum += f(a + i * h);
-    }
-    return h * sum;
-};
+// export const integral = (a, b, f, n) => {
+//     let h = (b - a) / n;
+//     let sum = 0;
+//     for (let i = 0; i < n; i++) {
+//         sum += f(a + i * h);
+//     }
+//     return h * sum;
+// };
