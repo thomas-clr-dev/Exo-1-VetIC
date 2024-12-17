@@ -27,3 +27,5 @@ Détection de certains bug dans les test
 Résolution des bugs précédement détecter
 
 Mise à jour du README
+
+Premier Test de faire un Hotfix et de créer la branche hotfix
