@@ -37,6 +37,6 @@ Première version de l'application terminée
 
 Sorti de la v1.0
 
-Premier Test de faire un Hotfix et de créer la branche hotfix
+Test de faire un rebase sur la branch main
 
-Teste de la commande merge de feature 
+Ajout de texte juste pour avoir plusieurs commit
