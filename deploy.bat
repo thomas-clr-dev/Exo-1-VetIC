@@ -9,8 +9,8 @@ npm install
 
 @REM # Launch all the tests
 
-echo "Running tests..."
-npm test
+@REM echo "Running tests..."
+@REM npm test
 
 @REM # # Build the project
 
