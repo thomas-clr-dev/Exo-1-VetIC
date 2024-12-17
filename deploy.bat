@@ -19,7 +19,7 @@ npm test
 
 @REM # # Deploy the project
 
-@REM echo "Deploying the project..."
-@REM git push origin main
+echo "Deploying the project..."
+git push origin main
 
 echo "Deployment process completed."
