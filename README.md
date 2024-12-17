@@ -31,3 +31,8 @@ Mise à jour du README
 Modification pour tester le power-up de trello
 
 Ajout du test de l'intégral
+
+
+Première version de l'application terminée
+
+Sorti de la v1.0
