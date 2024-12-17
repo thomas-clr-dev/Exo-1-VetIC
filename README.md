@@ -27,3 +27,5 @@ Détection de certains bug dans les test
 Résolution des bugs précédement détecter
 
 Mise à jour du README
+
+Modification pour tester le power-up de trello
