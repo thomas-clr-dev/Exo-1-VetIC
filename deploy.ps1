@@ -19,7 +19,7 @@ npm test
 
 # Deploy the project
 
-echo "Deploying the project..."
-git push origin main
+# echo "Deploying the project..."
+# git push origin main
 
 echo "Deployment process completed."
