@@ -36,3 +36,5 @@ Ajout du test de l'intégral
 Première version de l'application terminée
 
 Sorti de la v1.0
+
+Premier Test de faire un Hotfix et de créer la branche hotfix
