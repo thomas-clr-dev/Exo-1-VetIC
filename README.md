@@ -38,3 +38,5 @@ Première version de l'application terminée
 Sorti de la v1.0
 
 Test de faire un rebase sur la branch main
+
+Ajout de texte juste pour avoir plusieurs commit
